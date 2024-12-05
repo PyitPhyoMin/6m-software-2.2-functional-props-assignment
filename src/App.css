@@ -14,14 +14,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(103, 100, 100);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .App-link {
@@ -35,4 +36,63 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card {
+  width: 55%;
+  margin: 1.2rem auto;
+  padding: 0.8rem;
+  text-align: center;
+  border: 1.2px solid #2b396b;
+  border-radius: 45px;
+  background: black;
+}
+
+.card:hover {
+  background: rgba(164, 133, 103, 0.321);
+}
+
+hr {
+  border-bottom: 0;
+  width: auto;
+}
+
+h1 {
+  color: white;
+  font-size: 110%;
+  margin-block-end: 0.05%;
+}
+
+h2 {
+  color: yellow;
+  font-size: 90%;
+}
+
+p.description {
+  font-size: 68%;
+  font-weight: 495;
+  color: white;
+}
+
+a.more {
+  font-size: 50%;
+  font-weight: 400;
+  color: white;
+}
+
+ul {
+  justify-items: center;
+  border-bottom: 0%;
+  margin-bottom: -3%;
+}
+
+li {
+  color: white;
+  font-size: 62%;
+}
+
+.genreList {
+  color: yellow;
+  font-size: 90%;
+  margin-bottom: 0%;
 }
